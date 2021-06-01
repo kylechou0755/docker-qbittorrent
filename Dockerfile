@@ -49,5 +49,5 @@ RUN \
 COPY root/ /
 
 # ports and volumes
-EXPOSE 6881 6881/udp 8080
+EXPOSE 16881 16881/udp 8080
 VOLUME /config
